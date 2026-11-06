@@ -1,0 +1,10 @@
+# local Python environment (recreate from nlp1-student-tutorial1-2026/requirements.txt)
+.venv/
+
+# Python / Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+
+# trained fold models (about 125 MB; recreate with Run All). results.json and the tokenizer stay in the repo.
+*.pt
+*.pickle
